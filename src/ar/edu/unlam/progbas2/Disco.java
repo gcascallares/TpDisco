@@ -24,7 +24,7 @@ public Double calcularPerimetroExterior(){
 
 public Double calcularSuperficie(){
 	Double superficie;
-	superficie = ((Math.PI)*(radioInterior*radioInterior) - (Math.PI)*(radioExterior*radioExterior));
+	superficie = ((Math.PI)*(radioExterior*radioExterior) - (Math.PI)*(radioInterior*radioInterior));
 	return superficie;	
 }
 
